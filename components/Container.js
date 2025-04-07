@@ -69,7 +69,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         className={`wrapper ${BLOG.font === 'serif' ? 'font-serif' : 'font-sans'
           }`}
       >
-        <Layout>
+        <Layout navBarTitle="1Link 导航">
           <div className={styles.baseContainer}>
             {/* <main className={cn(
               'flex-grow transition-all',
