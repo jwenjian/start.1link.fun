@@ -87,9 +87,8 @@ export default function Home({ postsToShow }) {
       <div className={styles.container}>
         {/* 顶部横幅 */}
         <div className={styles.hero}>
-          <h1 className={styles.heroTitle}>阅读指南</h1>
-          <p className={styles.heroSubtitle}>发现和探索全球优质的阅读资源，让知识触手可及</p>
-          <SearchComponent postsToShow={postsToShow} />
+          <h1 className={styles.heroTitle}>1Link 导航</h1>
+          <p className={styles.heroSubtitle}>专注高质量站点导航， 每一条均由人工审核并长期更新</p>
         </div>
 
         {/* 主内容区域 - 显示资源分类和列表 */}
@@ -163,8 +162,6 @@ export default function Home({ postsToShow }) {
           {/* 收藏提示框 */}
           <BookmarkPrompt />
 
-          {/* MIT开源协议和Notion后台管理信息 */}
-          <SiteInfo />
       </div>
     </Layout>
   );

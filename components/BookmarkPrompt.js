@@ -11,7 +11,7 @@ const BookmarkPrompt = () => {
           </svg>
         </div>
         <div className={styles.bookmarkText}>
-          <p>觉得阅读指南很不错？那就按住<span className={styles.bookmarkKey}>Ctrl+D</span>键组合，把<span className={styles.bookmarkSite}>readzn.com</span>加入你的浏览器收藏夹吧！</p>
+          <p>觉得 1Link 导航很不错？那就按住<span className={styles.bookmarkKey}>Ctrl+D</span>键组合，把<span className={styles.bookmarkSite}>start.1link.fun</span>加入你的浏览器收藏夹吧！</p>
         </div>
       </div>
     </div>

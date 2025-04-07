@@ -10,8 +10,8 @@ export default function Donate() {
   return (
     <Layout>
       <Head>
-        <title>捐赠支持 - 阅读指南</title>
-        <meta name="description" content="通过捐赠支持阅读指南，帮助我们持续提供优质的电子书资源导航和阅读工具服务。" />
+        <title>捐赠支持 - 1Link 导航</title>
+        <meta name="description" content="通过捐赠支持 1Link 导航，帮助我们持续提供优质的电子书资源导航和阅读工具服务。" />
       </Head>
 
       <div className={styles.contactContainer}>
@@ -21,7 +21,7 @@ export default function Donate() {
 
           <div className={styles.aboutUs}>
             <h2>关于捐赠</h2>
-            <p>阅读指南目前是一个完全免费的平台，我们致力于为广大读者提供优质的电子书资源和阅读工具服务。</p>
+            <p>1Link 导航目前是一个完全免费的平台，我们致力于为广大读者提供优质的电子书资源和阅读工具服务。</p>
             <p>如果您觉得我们的服务对您有所帮助，欢迎通过以下方式支持我们的工作（留下您的名字），让我们能够持续提供更好的服务。</p>
 
             <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
